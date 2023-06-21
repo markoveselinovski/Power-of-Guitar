@@ -1,0 +1,80 @@
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #3a3a3a;
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+.navbar{
+    background-color: #000000;
+}
+
+.logo {
+    size:150%;
+}
+
+.modal-header {
+    color:black;
+}
+
+
+.shadow {
+    box-shadow: 1rem 1rem 1rem  rgba(0,0,0,0.2) !important;
+}
+
+/*CARD TEXT*/
+
+.card-text{
+    overflow: hidden;
+}
+
+.line-clamp{
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+/*CARD ANIMATION*/
+.card{
+    animation-name: slideInUp;
+    animation-duration: 1.5s;
+    transition-duration: 1s;
+    -webkit-transition: all 0.5s ease; 
+    -moz-transition: all 0.5s ease; 
+    -o-transition: all 0.5s ease; 
+    -ms-transition: all 0.5s ease; 
+    transition: all 0.5s ease;
+}
+
+.card:hover{
+   
+    transform: scale(1.1);
+}
+
+
+#search{
+    width: 450px !important;
+}
+
+#cardlink:hover{
+    text-decoration: none;
+}
+
+.carousel-image{
+    width: 90%;
+    height: 25vw;
+    margin-right: 5%;
+    margin-left: 5%;
+    border-radius: 5%;
+}
+
+.b3r{
+    border-width: 3px !important;
+    border-radius: 50px;
+}
